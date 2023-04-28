@@ -19,7 +19,7 @@ def alarm(set_alarm_timer):
         print(now)
         if now == set_alarm_timer:
             print("Time to Wake up")
-            winsound.PlaySound("C:\Users\peanuts\Desktop\Python Projects\DataFlair-Alarm-Clock\Alarm03.wav",winsound.SND_ASYNC)
+            winsound.PlaySound("Alarm03.wav",winsound.SND_ASYNC)
             break
 
 def actual_time():
