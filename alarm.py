@@ -1,71 +1,62 @@
 import time
 import datetime
 import winsound
+from appJar import gui
 
-def get_time():
-    print("Welcome to the alarm clock!")
-    
-    while True:
-        try:
-            hour = int(input("Enter the hour (in 12-hour format): "))
-            if 13 > hour > 0:
-                break
+def press(button):
+    if button == "Cancel":
+        app.stop()
+    else:
+        hr1 = app.getEntry("Hour")
+        min1 = app.getEntry("Minute")
+        
+        hr2 = round(hr1)
+        min2 = round(min1)
+        
+        if 13 > hr2 > 0:
+            global fin_hr
+            fin_hr = hr2
+            if 60 > min2 >= 0:
+                if 10 > min2:
+                    global fin_min
+                    fin_min = f"0{min2}"
+                    period_check()
+                else:
+                    fin_min = min2
+                    period_check()
             else:
-                print("Please enter a number between 1 and 12.")
-                continue
-        except:
-            print("Please enter the hour in 12-hour format.")
-            continue
-    
-    while True:
-        am_pm = input("AM or PM? ")
-        if am_pm in ["PM", "pm", "Pm", "pM"]:
-            if 12 > hour > 0:
-                hour += 12
-                break
-            else:                                    
-                break
-        elif am_pm in ["AM", "am", "Am", "aM"]:
-            if hour == 12:
-                hour = "00"
-                break
-            else:
-                break
+                app.warningBox("Error", "Please enter a minute between 0 and 59.")
         else:
-            print("Please enter AM or PM.")
-            continue
+            app.warningBox("Error", "Please enter a hour between 1 and 12.")
+
+
+def period_check():
+    am_pm1 = app.getOptionBox("Period")
+    global fin_hr
+    global fin_min
     
-    while True:    
-        try:
-            minute = int(input("Enter the minute: "))
-            if 60 >= minute >= 10:
-                fin_min = minute
-                break
-            elif 10 > minute >= 0:
-                fin_min = f"0{minute}"
-                break
-        except:
-            print("Please enter a number between 0 and 60.")
-            continue
-    
-    while True:
-        try:
-            second = int(input("Enter the second: "))
-            if 60 >= second >= 10:
-                fin_sec = second
-                break
-            elif 10 > second >= 0:
-                fin_sec = f"0{second}"
-                break
-        except:
-            print("Please enter a number between 0 and 60.")
-            continue
-    
-    global alarm_time
-    alarm_time = f"{hour}:{fin_min}:{fin_sec}"
-    
-    
-    
+    if am_pm1 == "AM":
+        if fin_hr == 12:
+            fin_hr = "00"
+            alarm_time = f"{fin_hr}:{fin_min}:00"
+            alarm(alarm_time)
+        elif 11 >= fin_hr >= 10:
+            alarm_time = f"{fin_hr}:{fin_min}:00"
+            alarm(alarm_time)
+        elif 9 >= fin_hr:
+            fin_hr = f"0{fin_hr}"
+            alarm_time = f"{fin_hr}:{fin_min}:00"
+            alarm(alarm_time)
+    else:
+        if 11 >= fin_hr:
+            fin_hr += 12
+            alarm_time = f"{fin_hr}:{fin_min}:00"
+            alarm(alarm_time)
+        else:
+            alarm_time = f"{fin_hr}:{fin_min}:00"
+            alarm(alarm_time)
+      
+            
 def alarm(set_alarm_timer):
     print("Your alarm has been set for:", set_alarm_timer)
     while True:
@@ -79,6 +70,16 @@ def alarm(set_alarm_timer):
             break
 
 
+app = gui("Alarm Clock", "400x200")
+app.addLabel("title", "Alarm Clock")
+app.setBg("gray")
+app.setFont(18)
+app.setLabelBg("title", "white")
+app.addLabelNumericEntry("Hour")
+app.addLabelNumericEntry("Minute")
+app.addLabelOptionBox("Period", ["AM", "PM"])
+app.addButtons(["Submit", "Cancel"], press)
+app.setFocus("Hour")
 
-get_time()
-alarm(alarm_time)
+
+app.go()
