@@ -1,0 +1,196 @@
+﻿[Info]
+id=1036
+lng=fr
+translator=http://www.alconost.com
+
+[Buttons]
+0=< &Retour
+1=&Suivant >
+2=&Annuler
+3=&Installer
+4=&Quitter
+5=&Oui
+6=&Non
+7=&Parcourir...
+8=&Terminer
+9=&Extraire
+10=OK
+11=&J'accepte
+12=Imprimer
+
+[Title]
+0=<AppNameVersion> Installation
+
+[Language]
+0=Bienvenue dans l'installation de <AppName>
+1=Sélectionnez la langue de l'installation:
+
+[Welcome]
+0=Bienvenue à l'installation de <AppName>
+1=<AppNameVersion> sera installé sur votre ordinateur.<#><#>Cliquez sur Suivant pour continuer ou sur Annuler pour quitter la Configuration.
+2=Copyright © %s
+3=Paramètres
+
+[LicenseAgreement]
+0=Contrat de Licence
+1=Veuillez lire les informations importantes ci-dessous avant de poursuivre.
+2=Veuillez lire le Contrat de licence suivant. Vous devez accepter les conditions contractuelles avant de poursuivre la configuration.
+3=Si vous acceptez les conditions contractuelles, cliquez sur "J'accepte" pour continuer.
+4=J'accepte le contrat
+5=En installant ce produit, vous acceptez notre
+6=Contrat de Licence
+
+[Readme]
+0=Informations LisezMoi
+1=Veuillez lire les informations supplémentaires concernant le produit.
+2=Cliquez sur Suivant quand vous serez prêt à poursuivre la configuration.
+
+[UserInformation]
+0=Information Complémentaire
+1=Veuillez fournir les informations suivantes.
+2=Veuillez fournir les informations suivantes. Les champs requis sont marqués d'un astérisque (*).
+3=Nom:
+4=Société:
+5=Numéro de série:
+6=Le numéro de série est erroné. Veuillez réessayer.
+
+[DestinationFolder]
+0=Sélectionnez le dossier de destination
+1=
+2=La configuration installera <AppNameVersion> dans le dossier indiqué ci-dessous.
+3=Pour l'installer dans un autre dossier, cliquez sur Parcourir et sélectionnez un autre dossier.
+4=Dossier de destination
+5=Espace libre requis: %s
+6=Espace libre disponible: %s
+7=L'espace libre sur le disque %s est insuffisant.<#><#>Voulez-vous quand même continuer?
+
+[AdditionalTasks]
+0=Actions complémentaires
+1=
+2=Sélectionnez les tâches supplémentaires que vous souhaitez voir réalisées lors de l'installation de <AppName>, puis cliquez sur Suivant.
+3=Créer des raccourcis dans le Menu Démarrer
+4=Créer des raccourcis sur le Bureau
+5=Créer des raccourcis sur le panneau Lancement rapide
+6=Associer <AppName> avec le(s) type(s) de dossier(s): %s
+7=Nom du groupe de programmes:
+8=Tâches supplémentaires:
+9=Exécutez le programme au démarrage de Windows
+10=Installer pour:
+11=Tous les utilisateurs
+12=Utilisateur actuel
+
+[ReadyToInstall]
+0=Prêt à installer
+1=La Configuration est maintenant prête à lancer l'installation de <AppNameVersion> sur votre ordinateur.
+2=Cliquez sur Installer pour poursuivre l'installation ou sur Retour si vous souhaitez revoir ou modifier un paramètre.
+
+[Install]
+0=Installation...
+1=Veuillez patienter pendant que l'Assistant de configuration installe <AppNameVersion> sur votre ordinateur.
+2=Installation des dossiers...
+3=Création des raccourcis...
+4=Création des entrées de registre...
+5=Modification des dossiers .INI...
+6=Création des associations...
+7=Enregistrement des polices...
+8=Enregistrement d'ActiveX...
+9=Enregistrement de la Bibliothèque de types...
+10=Fin de la configuration...
+11=Suppression des fichiers temporaires...
+12=Préparation...
+13=Extraire les fichiers...
+
+[SetupComplete]
+0=Installation Terminée
+1=<AppNameVersion> a été installé sur votre ordinateur.
+2=AVERTISSEMENT ! L'installation a été terminée avec des erreurs. L'application peut ne pas fonctionner correctement.
+3=Cliquez sur Terminer pour quitter la Configuration.
+4=Lancer <AppName>
+5=Ouvrir le fichier LisezMoi
+6=Vous devez redémarrer votre ordinateur pour pouvoir utiliser <AppName>.
+7=Redémarrer l'ordinateur
+8=Oui, je veux redémarrer mon ordinateur maintenant.
+9=Non, je redémarrerai mon ordinateur plus tard.
+
+[Uninstall]
+0=%s Désinstaller
+1=Êtes-vous sûr de vouloir supprimer complètement %s ?
+2=%s a été supprimé avec succès de votre ordinateur.
+3=Souhaitez-vous consulter la page Internet de désinstallation du produit ?
+4=%s doit être fermé avant sa désinstallation.%n%nPour continuer, fermez %s puis cliquez sur OK.%nPour quitter la désinstallation, cliquez sur Annuler.
+5=Pour terminer la désinstallation de %s, vous devez redémarrer votre ordinateur.%n%nSouhaitez-vous le redémarrer maintenant ?
+6=%s ne peut être désinstallé que par l'administrateur.
+7=Souhaitez-vous supprimer les fichiers de configuration %s ?
+8=Pour continuer, fermez% s, puis cliquez sur Réessayer.%nPour ignorer ce fichier, cliquez sur Ignorer.%nPour quitter la désinstallation, cliquez sur Abandonner.
+9=%s a été désinstallé de votre ordinateur, mais certains éléments n'ont pas pu être supprimés.%n%nCes éléments peuvent être utilisés par les services Windows ou certaines applications en cours d'exécution.%n%nSouhaitez-vous supprimer les éléments suivants après un redémarrage?
+
+[Updater]
+0=Détails du produit
+1=Nom:
+2=Version installée:
+3=Vérifier mise à jour
+4=Fermer
+5=Informations de mise à jour erronées.
+6=Connexion au site des mises à jour impossible.
+7=Une nouvelle version de <AppName> est disponible - %s%n%nSouhaitez-vous télécharger et installer cette version ?
+8=Aucune mise à jour disponible.
+9=Vous avez maintenant %s
+10=Options
+11=Vérifier les mises à jour sur le lancement de l'application
+12=Impossible d'enregistrer les paramètres. Accès refusé.%n%nEssayez d'exécuter le programme en tant qu'administrateur.
+13=Cette action nécessite des privilèges d'administrateur.%n%nVoulez-vous lancer ce fichier en tant qu'administrateur?
+14=Vérifier automatiquement les mises à jour:
+15=au démarrage de Windows
+16=Tous les jours
+17=Toutes les semaines
+18=Tous les mois
+19=Done
+20=Voulez-vous désactiver la notification pour cette version - %s?
+21=Note: You can change the update frequency or turn off the automatic update feature in the Updater Options dialog.%n%nWould you like to open it?
+22=Note: You can change the update frequency or turn off the automatic update feature in the Updater Options dialog.%n%nTo open this dialog, click YES.%n%nOr you can turn off the update notification for this version only (%s).%n%nTo make it, click NO.%n%nTo exit, click Cancel.
+23=<AppName> has been successfully updated!
+24=Install Updates Silently
+25=Ce programme peut rechercher automatiquement les mises à jour (quotidiennes, hebdomadaires ou mensuelles).%n%nVoulez-vous activer cette fonctionnalité?
+26=Oui
+27=Non
+28=Nouveautés:
+
+[Messages]
+0=Quitter la Configuration
+1=Êtes-vous sûr de vouloir abandonner l'installation ?
+2=Cette installation nécessite une version 64 bits de Windows.<#><#>L'installation ne peut pas continuer.
+3=Cette installation nécessite Windows %s.<#><#>L'installation ne peut pas continuer.
+4=Cette installation nécessite des privilèges d'administrateur.<#><#>L'installation ne peut pas continuer.
+5=Cette installation nécessite une connexion Internet active.<#><#>Voulez-vous quand même continuer ?
+6=Veillez fermer "%s", puis cliquez sur Réessayer pour continuer ou sur Annuler pour quitter.
+7=Cette installation nécessite %s ou ultérieur pour être installé sur votre ordinateur.<#>L'installation ne peut pas continuer.<#><#>Souhaitez-vous l'installer maintenant ?
+8=Cette installation nécessite %s pour être installé sur votre ordinateur.<#>L'installation ne peut pas continuer.<#><#>Souhaitez-vous l'installer maintenant ?
+9=Veuillez redémarrer ce programme de configuration après avoir installé les prérequis.
+10="%s" est déjà installé sur votre ordinateur.<#><#>Voulez-vous vraiment installer une version antérieure (%s) ?
+11=Avant d'installer "%s", vous devez d'abord désinstaller votre version actuellement installée (%s).<#><#>Souhaitez-vous le désinstaller maintenant ?
+12=Le fichier "%s" existe déjà.<#><#>Souhaitez-vous l'écraser ?
+13=Erreur lors de la création d'un répertoire:<#>%s<#><#>Accès refusé.
+14=Erreur lors de la création d'un fichier:<#>%s<#><#>Accès refusé.
+15=Erreur lors de la création de la clé de registre:<#>%s<#><#>Accès refusé.
+16=Erreur lors de la création des raccourcis:<#>%s<#><#>Accès refusé.
+17=Erreur lors de la création de la clé de registre:<#>%s<#><#>Accès refusé.
+18=Erreur lors de la création de la valeur de registre:<#>%s<#><#>Accès refusé.
+19=Erreur lors de l'écriture de la valeur .INI:<#>%s<#><#>Accès refusé.
+20=Erreur lors de la création de l'association pour:<#>%s<#><#>Accès refusé.
+21=Erreur lors de l'enregistrement des polices:<#>%s
+22=Impossibilité d'enregistrer DLL/OCX:<#>%s
+23=Impossibilité d'enregistrer la Bibliothèque de types:<#>%s
+25="%s" n'est pas installé sur votre ordinateur.<#><#>La mise à jour ne peut pas continuer.
+26=Fichier source introuvable:<#>%s<#><#>Veuillez préciser l'emplacement de ce fichier.
+27=Vous n'avez pas les droits suffisants pour effectuer cette opération.<#><#>Connectez-vous en tant qu'administrateur ou contactez votre administrateur système.
+28=L'installation ne peut pas continuer. Connectez-vous comme administrateur ou contactez votre administrateur système.
+29=Cette installation nécessite une version 32 bits de Windows.<#><#>L'installation ne peut pas continuer.
+30=Aimeriez-vous:
+31=L'installation pour tous les utilisateurs nécessite des privilèges d'administrateur.<#><#>Voulez-vous lancer ce fichier d'installation en tant qu'administrateur?
+32=Erreur lors de la création Environment Variable:
+33="%s" n'a pas été installé sur votre ordinateur.<#>Vous pouvez continuer cette installation, mais veuillez noter: l'application peut ne pas fonctionner correctement.
+34=Sélectionnez au moins un composant.
+35="<AppName> v%s" est actuellement installé sur votre ordinateur.<#><#>Cliquez "OUI" pour désinstaller cette version avant l'installation de v<AppVersion>..<#><#>Cliquez "NON" pour écraser v%s avec v<AppVersion>.<#><#>Cliquez "ANNULER" pour conserver v%s et installer v<AppVersion> dans un autre répertoire.
+36=Continuer?
+37=Cliquez "RECOMMENCER" pour poursuivre, ou "ANNULER" pour quitter.
+38=Veuillez patienter

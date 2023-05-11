@@ -63,6 +63,7 @@ def alarm(set_alarm_timer):
         time.sleep(1)
         c_time = datetime.datetime.now()
         current_time = c_time.strftime("%H:%M:%S")
+        print(f"Current time: {current_time}")
         if current_time == set_alarm_timer:
             print("Time to wake up!")
             for i in range(3):
