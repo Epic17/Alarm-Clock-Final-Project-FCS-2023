@@ -1,17 +1,24 @@
+# Idea: add a feature that allows the user to title their alarm
+# If more time was available for this project, I would consider adding the ability to create multiple alarms.
+
 import time
 import datetime
 import winsound
 from appJar import gui
 
+hourentry = " Hour  "
+minuteentry = "Minute"
+periodentry = "Period"
+
 def press(button):
     if button == "Cancel":
         app.stop()
     else:
-        hr1 = app.getEntry("Hour")
-        min1 = app.getEntry("Minute")
+        hr1 = app.getEntry(hourentry)
+        min1 = app.getEntry(minuteentry)
         
-        hr2 = round(hr1)
-        min2 = round(min1)
+        hr2 = round(hr1) # type: ignore
+        min2 = round(min1) # type: ignore
         
         if 13 > hr2 > 0:
             global fin_hr
@@ -31,7 +38,7 @@ def press(button):
 
 
 def period_check():
-    am_pm1 = app.getOptionBox("Period")
+    am_pm1 = app.getOptionBox(periodentry)
     global fin_hr
     global fin_min
     
@@ -67,20 +74,21 @@ def alarm(set_alarm_timer):
         if current_time == set_alarm_timer:
             print("Time to wake up!")
             for i in range(3):
-                winsound.PlaySound("Alarm03.wav", winsound.SND_FILENAME)
+                winsound.PlaySound("AlarmSound.wav", winsound.SND_FILENAME)
             break
 
 
-app = gui("Alarm Clock", "400x200")
-app.addLabel("title", "Alarm Clock")
+app = gui("ezAlarm", "400x200")
+app.addLabel("title", "Set your alarm below.")
 app.setBg("gray")
 app.setFont(18)
-app.setLabelBg("title", "white")
-app.addLabelNumericEntry("Hour")
-app.addLabelNumericEntry("Minute")
-app.addLabelOptionBox("Period", ["AM", "PM"])
+app.setLabelBg("title", "gray")
+app.addLabelNumericEntry(hourentry)
+app.addLabelNumericEntry(minuteentry)
+app.addLabelOptionBox(periodentry, ["AM", "PM"])
 app.addButtons(["Submit", "Cancel"], press)
-app.setFocus("Hour")
+app.setFocus(hourentry)
+app.icon = "ezAlarm-icon.ico"
 
 
 app.go()
