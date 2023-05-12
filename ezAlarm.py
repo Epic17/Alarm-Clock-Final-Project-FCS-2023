@@ -4,8 +4,10 @@
 import time
 import datetime
 import winsound
+import pyaudio
 from appJar import gui
 
+p = pyaudio.PyAudio()
 hourentry = " Hour  "
 minuteentry = "Minute"
 periodentry = "Period"
@@ -14,8 +16,18 @@ def press(button):
     if button == "Cancel":
         app.stop()
     else:
+        try:
+            p.get_default_output_device_info()
+        except IOError:
+            app.warningBox("Error", "No output device found. Please check your output device and try again.")
+        
+        
         hr1 = app.getEntry(hourentry)
         min1 = app.getEntry(minuteentry)
+        
+        
+        #else:
+         #   app.warningBox("Error", "Please enter a valid value.")
         
         hr2 = round(hr1) # type: ignore
         min2 = round(min1) # type: ignore
@@ -80,9 +92,9 @@ def alarm(set_alarm_timer):
 
 app = gui("ezAlarm", "400x200")
 app.addLabel("title", "Set your alarm below.")
-app.setBg("gray")
+app.setBg("lightblue")
 app.setFont(18)
-app.setLabelBg("title", "gray")
+app.setLabelBg("title", "lightblue")
 app.addLabelNumericEntry(hourentry)
 app.addLabelNumericEntry(minuteentry)
 app.addLabelOptionBox(periodentry, ["AM", "PM"])
