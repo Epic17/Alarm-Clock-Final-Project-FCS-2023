@@ -79,7 +79,7 @@ def alarm(set_alarm_timer):
             print("Time to wake up!")
             try:
                 for i in range(3):
-                    winsound.PlaySound("AlarmSound.wav", winsound.SND_FILENAME)
+                    winsound.PlaySound("assets/alarmsound.wav", winsound.SND_FILENAME)
             except:
                 app.warningBox("Error", "Sound was unable to play. Please check your output device and try again.")
             break
@@ -95,7 +95,7 @@ app.addLabelNumericEntry(minuteentry)
 app.addLabelOptionBox(periodentry, ["AM", "PM"])
 app.addButtons(["Submit", "Cancel"], press)
 app.setFocus(hourentry)
-app.icon = "ezAlarm-icon.ico"
+app.icon = "assets\ezAlarm-icon.ico"
 
 # Checks for an output device. If found, continue with app startup.
 # If not, cancel app startup and prompt user to connect an output device.
