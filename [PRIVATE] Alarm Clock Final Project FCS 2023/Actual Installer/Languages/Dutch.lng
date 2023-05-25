@@ -1,0 +1,196 @@
+﻿[Info]
+id=1043
+lng=nl
+translator=Jacques Deseure (https://www.daproverb.be) 13/05/2020
+
+[Buttons]
+0=< &Terug
+1=&Volgende >
+2=&Annuleren
+3=&Installeren
+4=&Sluiten
+5=&Ja
+6=&Nee
+7=&Bladeren...
+8=&Voltooien
+9=&Uitpakken
+10=OK
+11=A&kkoord
+12=Afdrukken
+
+[Title]
+0=<AppNameVersion> Installatie
+
+[Language]
+0=<AppName> Installatie
+1=Selecteer de installatietaal:
+
+[Welcome]
+0=<AppName> Installatie
+1=Hiermee zal <AppNameVersion> worden geïnstalleerd.<#><#>Klik op Volgende om verder te gaan, of op Annuleren om af te sluiten.
+2=Copyright © %s
+3=Opties
+
+[LicenseAgreement]
+0=Gebruiksrechtovereenkomst
+1=Lees de volgende belangrijke informatie voordat u verder gaat.
+2=Lees de volgende gebruiksrechtovereenkomst. U moet akkoord gaan met deze overeenkomst voordat u verder kunt gaan met de installatie.
+3=Indien u akkoord gaat met de gebruiksrechtovereenkomst, klik op Akkoord.
+4=Ik ga akkoord met de overeenkomst.
+5=Door het installeren van dit programma, gaat u akkoord met de
+6=Gebruiksrechtovereenkomst
+
+[Readme]
+0=Leesmij informatie
+1=Lees de aanvullende informatie voor dit product.
+2=Wanneer u gereed bent om verder te gaan met de installatie, klik op Volgende.
+
+[UserInformation]
+0=Extra Informatie
+1=Gelieve de volgende informatie op te geven.
+2=Gelieve de volgende informatie op te geven. Verplichte velden hebben een ster (*).
+3=Naam:
+4=Bedrijf:
+5=Serienummer:
+6=Het serienummer is onjuist. Probeer nogmaals.
+
+[DestinationFolder]
+0=Selecteer de Installatiemap
+1=Kies de Installatiemap.
+2=Setup zal <AppNameVersion> in de hieronder weergegeven map installeren.
+3=Om in een andere map te installeren klikt u op Bladeren.
+4=Doelmap
+5=Benodigde vrije ruimte: %s
+6=Beschikbare vrije ruimte: %s
+7=Schijf %s heeft onvoldoende vrije ruimte.<#><#>Wilt u toch doorgaan?
+
+[AdditionalTasks]
+0=Selecteer Extra Taken
+1=Welke extra taken moeten worden uitgevoerd?
+2=Selecteer de extra taken die Setup moet uitvoeren tijdens de installatie van <AppName>, klik vervolgens op Volgende.
+3=Maak snelkoppelingen in het menu Start
+4=Maak snelkoppelingen op het Bureaublad
+5=Maak snelkoppelingen in Snel Starten
+6=<AppName> koppelen aan bestandstype(s): %s
+7=Naam van de Programmagroep:
+8=Extra taken:
+9=Voer <Appname> uit bij het opstarten van Windows
+10=Installeren voor:
+11=Alle gebruikers
+12=Huidige gebruiker
+
+[ReadyToInstall]
+0=Gereed voor installatie
+1=Setup is nu klaar om de installatie van <AppNameVersion> te starten.
+2=Klik op Installeren om door te gaan met de installatie, Of Terug als u instellingen wilt veranderen.
+
+[Install]
+0=Installeren...
+1=Een ogenblik geduld, Setup installeert <AppNameVersion>.
+2=Bestanden kopiëren...
+3=Snelkoppelingen maken...
+4=Registervermeldingen maken...
+5=INI-bestanden wijzigen...
+6=Bestandskoppelingen maken...
+7=Lettertypen registreren...
+8=ActiveX registreren...
+9=Typebibliotheek registreren...
+10=Installatie voltooien...
+11=Tijdelijke bestanden verwijderen...
+12=Voorbereiden...
+13=Bestanden uitpakken...
+
+[SetupComplete]
+0=Installatie Voltooid
+1=Setup is klaar met de installatie van <AppNameVersion>.
+2=WAARSCHUWING! De installatie is voltooid met fouten. De toepassing zal mogelijk niet goed werken.
+3=Klik op Voltooien om setup af te sluiten.
+4=<AppName> starten
+5=Leesmij-bestand openen
+6=Voordat u <AppName> kunt gebruiken, moet de computer opnieuw worden opgestart.
+7=De computer opnieuw opstarten.
+8=Ja, ik wil de computer nu opnieuw opstarten.
+9=Nee, ik start de computer later opnieuw op.
+
+[Uninstall]
+0=%s verwijderen
+1=Weet u zeker dat u %s volledig wilt verwijderen?
+2=%s is van de computer verwijderd.
+3=Wilt u met ons uw opinie over dit product delen?
+4=%s moet worden afgesloten om door te gaan met verwijderen.%n%nOm door te gaan, sluit %s en klik op OK.%nOm de verwijdering af te sluiten, klik op Annuleren.
+5=Om de verwijdering van %s te voltooien, moet de computer opnieuw worden opgestart.%n%nWilt u nu opnieuw opstarten?
+6=%s kan alleen worden verwijderd als de gebruiker administrator-rechten heeft.
+7=Wilt u de instellingenbestanden van %s verwijderen?
+8=%s moet worden afgesloten om door te gaan met verwijderen.%n%nOm door te gaan, sluit %s en klik dan op Opnieuw.%nOm dit bestand over te slaan, klik op Negeren.%nOm verwijderen af te sluiten, klik op Afbreken.
+9=%s is van de computer verwijderd, maar sommige onderdelen konden niet worden verwijderd.%n%nDie kunnen in gebruik zijn door Windows Services of door actieve toepassingen.%n%nWilt u na een herstart de volgende elementen verwijderen?
+
+[Updater]
+0=Productgegevens
+1=Naam:
+2=Geïnstalleerde versie:
+3=Updatecontrole
+4=Sluiten
+5=Onjuiste update-informatie.
+6=Kan geen verbinding maken met de update-website. Controleer uw internetverbinding.
+7=Nieuwe versie van <AppName> is beschikbaar - %s%n%nWilt u deze versie downloaden en installeren?
+8=Geen updates beschikbaar.
+9=Nu heb je %s
+10=Opties
+11=Updatecontrole bij starten Programma
+12=Kan de instellingen niet opslaan. Toegang geweigerd.%n%nProbeer het programma uit te voeren als administrator.
+13=Voor deze actie zijn administratorbevoegdheden vereist.%n%nWilt u dit bestand als administrator uitvoeren?
+14=Automatische updatecontrole:
+15=Bij opstarten pc
+16=Elke Dag
+17=Elke Week
+18=Elke Maand
+19=Geslaagd
+20=Wilt u de melding voor deze versie uitschakelen - %s?
+21=Opmerking: U kunt de updatefrequentie wijzigen of de automatische updatefunctie uitschakelen in het dialoogvenster Updater Opties.%n%nWilt u dit openen?
+22=Opmerking: U kunt de updatefrequentie wijzigen of de automatische updatefunctie uitschakelen in het dialoogvenster Updater Opties.%n%nOm dit dialoogvenster te openen, klikt u op JA.%n%nOf u kunt de updatemelding voor deze versie alleen uitschakelen (%s).%n%nOm het te doen, klikt u op Neen.%n%nOm het venster af te sluiten, klikt u op Annuleren.
+23=<AppName> is geüpdatet.
+24=Updates op de achtergrond installeren
+25=Dit programma kan automatisch controleren op updates (dagelijks, wekelijks of maandelijks).%n%nWilt u dit gebruiken?
+26=Ja
+27=Nee
+28=Wat is er nieuw:
+
+[Messages]
+0=Installatie sluiten
+1=Weet u zeker dat u de setup wilt annuleren?
+2=Voor deze installatie is een 64-bit versie van Windows vereist.<#><#>Installatie kan niet doorgaan.
+3=Deze installatie vereist Windows %s.<#><#>Installatie kan niet doorgaan.<#><#>U kunt proberen de compatibiliteitsmodus te wijzigen:<#>Klik met de rechtermuisknop op het bestand en selecteer Eigenschappen \ Compatibiliteit - "Dit programma uitvoeren in compatibiliteitsmodus voor:".
+4=Voor deze installatie zijn administratorbevoegdheden vereist.<#><#>Installatie kan niet doorgaan.
+5=Voor deze installatie is een actieve internetverbinding vereist.<#><#>Wilt u toch doorgaan?
+6=Sluit "%s", klik dan op Opnieuw om door te gaan, of op Annuleren om af te sluiten.
+7=Deze installatie vereist %s of hoger op deze computer.<#>Installatie kan niet doorgaan.<#><#>Wilt u deze nu installeren?
+8=Deze installatie vereist %s op deze computer.<#>Installatie kan niet doorgaan.<#><#>Wilt u deze nu installeren?
+9=Setup opnieuw opstarten na de installatie van het vereiste onderdeel.
+10="%s" is al geïnstalleerd.<#><#>Weet u zeker dat u een oudere versie (%s) wilt installeren ?
+11=Voor de installatie van "%s" moet de huidige geïnstalleerde versie (%s) eerst worden verwijderd van de computer.<#><#>Wilt u deze nu verwijderen?
+12=Bestand "%s" bestaat al.<#><#>Wilt u dit overschrijven?
+13=Fout bij het maken van map:<#>%s<#><#>Toegang geweigerd.
+14=Fout bij het maken van bestand:<#>%s<#><#>Toegang geweigerd.
+15=Fout bij het maken van registersleutel:<#>%s<#><#>Toegang geweigerd.
+16=Fout bij het maken van snelkoppeling:<#>%s<#><#>Toegang geweigerd.
+17=Fout bij het maken van registersleutel:<#>%s<#><#>Toegang geweigerd.
+18=Fout bij het maken van registerwaarde:<#>%s<#><#>Toegang geweigerd.
+19=Fout bij het schrijven van een INI-waarde:<#>%s<#><#>Toegang geweigerd.
+20=Fout bij het maken van koppeling voor:<#>%s<#><#>Toegang geweigerd.
+21=Fout bij het registreren van een lettertype:<#>%s
+22=Kan DLL/OCX niet registreren:<#>%s
+23=Kan typebibliotheek niet registreren:<#>%s
+25="%s" is niet geïnstalleerd.<#><#>Update kan niet doorgaan.
+26=Gegevensbestand niet gevonden:<#>%s<#><#>De locatie van dit bestand opgeven.
+27=U hebt onvoldoende rechten om deze handeling uit te voeren.<#><#>Meld u aan als administrator of neem contact op met uw systeembeheerder.
+28=De installatie kan niet doorgaan. Meld u aan als administrator of raadpleeg uw systeembeheerder.
+29=Deze installatie vereist een 32-bits versie van Windows.<#><#>Installatie kan niet doorgaan.
+30=Wilt u
+31=Installatie voor Alle gebruikers vereist administratorbevoegdheden.<#><#>Wilt u dit installatiebestand als administrator uitvoeren?
+32=Kan Omgevingsvariabele niet instellen:
+33="%s" was niet geïnstalleerd op de computer.<#>U kunt doorgaan met deze installatie, maar let op: het kan zijn dat de applicatie niet goed functioneert.
+34=Selecteer ten minste één onderdeel.
+35=Momenteel is "<AppName> v%s" geïnstalleerd op uw computer.<#><#>Klik op "JA" om die versie te verwijderen vooraleer v<AppVersion> te installeren.<#><#>Klik op "NEEN" om v%s te overschrijven met v<AppVersion>.<#><#>Klik op "ANNULEREN" om v%s te behouden en v<AppVersion> te installeren op een andere locatie.
+36=Toch doorgaan?
+37=Klik op Opnieuw om door te gaan, of op Annuleren om af te sluiten.
+38=Wacht alsjeblieft

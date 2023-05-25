@@ -1,0 +1,198 @@
+﻿[Info]
+id=1040
+lng=it
+translator=Giacomo Margarito - giacomomargarito@gmail.com
+
+[Buttons]
+0=< I&ndietro
+1=&Avanti >
+2=Annulla
+3=&Installa
+4=E&sci
+5=&Sì
+6=&No
+7=&Sfoglia...
+8=&Fine
+9=&Estrai
+10=OK
+11=&Accetto
+12=Stampa
+13=Esci
+
+[Title]
+0=Installazione di <AppNameVersion>
+
+[Language]
+0=Benvenuti nell'installazione di <AppName>
+1=Selezionare la lingua di installazione:
+
+[Welcome]
+0=Benvenuti nell'installazione di <AppName>
+1=Questo installerà <AppNameVersion> sul vostro computer.<#><#>Fare clic su Avanti per continuare o Annulla per uscire dall'installazione.
+2=Copyright © %s
+3=Opzioni
+
+[LicenseAgreement]
+0=Accordo di Licenza
+1=Leggete le seguenti informazioni importanti prima di continuare.
+2=Leggete il seguente accordo di licenza. Dovete accettare i termini di questo accordo prima di continuare con l'installazione.
+3=Se accettate i termini dell'accordo, fare clic su Accetto per continuare.
+4=Accetto l'accordo
+5=Con l'installazione di questo prodotto, l'utente accetta il nostro
+6=Contratto di Licenza
+
+[Readme]
+0=Informazioni di tipo Leggimi
+1=Leggete le seguenti informazioni aggiuntive per il prodotto.
+2=Quando siete pronti per continuare con l'installazione, cliccate Avanti.
+
+[UserInformation]
+0=Informazioni Aggiuntive
+1=Si prega di fornire le seguenti informazioni.
+2=Si prega di fornire le seguenti informazioni. I campi obbligatori sono segnati con un asterisco (*).
+3=Nome:
+4=Società:
+5=Seriale:
+6=Il numero seriale non è corretto. Riprova.
+
+[DestinationFolder]
+0=Selezionare la cartella del programma
+1=Selezionare la cartella per l'installazione.
+2=La procedura installerà <AppNameVersion> nella cartella indicata di seguito.
+3=Per installare in una cartella diversa, cliccate Sfoglia e selezionare un'altra cartella.
+4=Cartella di destinazione
+5=Spazio libero richiesto: %s
+6=Spazio libero disponibile: %s
+7=L'unità %s non contiene abbastanza spazio libero.<#><#>Continuare?
+
+[AdditionalTasks]
+0=Selezionare Processi aggiuntivi
+1=Quali processi aggiuntivi devono essere eseguiti?
+2=Selezionare i processi aggiuntivi che verranno eseguiti durante l'installazione <AppName>, quindi fare clic su Avanti.
+3=Crea i collegamenti nel Menu Start
+4=Crea i collegamenti sul Desktop
+5=Crea i collegamenti nel pannello di Avvio Rapido
+6=Associa il programma con l'estensione: %s
+7=Il nome del gruppo del programma:
+8=Processi aggiuntivi:
+9=Esegui il programma all'avvio di Windows
+10=Installa per:
+11=Tutti gli utenti
+12=Utente corrente
+
+[ReadyToInstall]
+0=Pronto all'installazione
+1=La procedura è ora pronta per iniziare l'installazione di <AppNameVersion> sul vostro computer.
+2=Cliccate Installa per continuare con l'installazione, o Indietro se volete rivedere o modificare qualunque impostazione.
+
+[Install]
+0=Installazione in corso...
+1=Attendete mentre la procedura installa <AppNameVersion> sul vostro computer.
+2=Installazione dei file in corso...
+3=Creazione dei collegamenti in corso...
+4=Creazione delle voci del registro in corso...
+5=Modifica dei file INI in corso...
+6=Creazione delle associazioni in corso...
+7=Registrazione dei Fonts in corso...
+8=Registrazione ActiveX in corso...
+9=Registrazione Type Library in corso...
+10=Termine dell'installazione in corso...
+11=Eliminazione dei file temporanei in corso...
+12=Preparazione...
+13=Estrazione dei file...
+
+[SetupComplete]
+0=Installazione Completata
+1=<AppNameVersion> è stato installato sul computer.
+2=ATTENZIONE! L'installazione è stata completata con errori. L'applicazione potrebbe non funzionare correttamente.  
+3=Cliccate Fine per uscire dall'installazione.
+4=Avvia <AppName>
+5=Apri il file Leggimi
+6=Prima di avviare <AppName>, dovete riavviare il vostro computer.
+7=Riavvia il computer
+8=Si, voglio riavviare il mio computer adesso.
+9=No, riavviare il computer in seguito.
+  
+[Uninstall]
+0=Disinstallazione di %s
+1=Siete sicuri di voler rimuovere completamente %s ?
+2=%s è stato rimosso con successo dal vostro computer.
+3=Volete visitare la pagina web di disinstallazione del prodotto?
+4=%s deve essere chiuso per continuare con la disinstallazione.%n%nPer continuare, chiudete %s e quindi fare clic su OK.%nPer uscire dalla disinstallazione, fare clic su Annulla.
+5=Per completare la disinstallazione di %s, il vostro computer deve essere riavviato.%n%nVolete riavviarlo adesso?
+6=%s può essere disinstallato solo da un utente con privilegi di amministratore.
+7=Volete rimuovere i file delle impostazioni di %s ?
+8=Per continuare, chiudi %s, quindi fai clic su Riprova.%nPer saltare questo file, fare clic su Ignora.%nPer uscire dalla disinstallazione, fare clic su Interrompi.
+9=%s è stato disinstallato dal tuo computer, ma alcuni elementi non possono essere rimossi.%n%nQuesti elementi potrebbero essere utilizzati dai servizi di Windows o da alcune app in esecuzione.%n%nVuoi rimuovere i seguenti elementi dopo un riavvio?
+10=Disinstallazione in corso di %s
+
+[Updater]
+0=Dettagli sul programma
+1=Nome:
+2=Versione installata:
+3=Controllare
+4=Chiudi
+5=Informazioni di aggiornamento errate.
+6=Impossibile connettersi al sito per l'aggiornamento.
+7=Nuova versione di <AppName> disponibile - %s%n%nVolete scaricare e installare questa versione?  
+8=Nessun aggiornamento disponibile.
+9=Ora hai %s
+10=Opzioni
+11=Verifica gli aggiornamenti all'avvio del programma
+12=Impossibile salvare le impostazioni. L'accesso è stato negato.%n%nProvate ad eseguire il programma come amministratore.
+13=Questa azione richiede privilegi di amministratore.%n%nVuoi avviare questo file come amministratore?
+14=Controlla automaticamente gli aggiornamenti:
+15=All'avvio del computer
+16=Ogni giorno
+17=Ogni settimana
+18=Ogni mesew
+19=Completato
+20=Volete disattivare la notifica per questa versione - %s?
+21=N.B.: Potete cambiare la frequenza di aggiornamento o spegnere l'aggiornamento automatico nella finestra Opzioni Updater.%n%nVolete aprirla?
+22=N.B.: Potete cambiare la frequenza di aggiornamento o spegnere l'aggiornamento automatico nella finestra Opzioni Updater.%n%nPer aprire questa finestra, cliccate SI.%n%nO potete spegnere la notifica di aggiornamento solo per questa versione (%s).%n%nPer farlo, cliccate NO.%n%nPer uscire, cliccate Annulla.
+23=<AppName> è stato aggiornato con successo!
+24=Installa gli aggiornamenti in silenzio
+25=Questo programma può controllare automaticamente gli aggiornamenti (giornalmente, settimanalmente o mensilmente).%n%nVolete usarlo?
+26=Sì
+27=No
+28=Novità:
+
+[Messages]
+0=Esci dall'installazione
+1=Siete sicuri di voler interrompere l'installazione?
+2=Questa installazione richiede una versione a 64 bit di Windows.<#><#>L'installazione non può continuare.
+3=Questa installazione richiede Windows %s.<#><#>L'installazione non può continuare.
+4=Questa installazione richiede i privilegi di amministratore.<#><#>L'installazione non può continuare.
+5=Questa installazione richiede una connessione ad internet attiva.<#><#>Volete continuare comunque?
+6=Chiudere "%s", quindi fare clic su Riprova per continuare, o Annulla per uscire.
+7=Questa installazione richiede %s o superiore per essere installato sul computer.<#>L'installazione non può continuare.<#><#>Volete installarlo ora?
+8=Questa installazione richiede %s installato sul computer.<#>L'installazione non può continuare.<#><#>Vuoi installarlo ora?
+9=Riavviare il programma di installazione dopo aver installato il prerequisito.
+10=Sul vostro computer è giа installato "%s"<#><#>Volete veramente installare la versione (%s) ?
+11=Prima di installare "%s", è necessario prima disinstallare la versione attualmente installata (%s).<#><#>Volete disinstallarlo ora?
+12=Il file "%s" esiste già.<#><#>Volete sovrascriverlo?
+13=Errore nella creazione della cartella:<#>%s<#><#>Accesso negato.
+14=Errore nella creazione del file:<#>%s<#><#>Accesso negato.
+15=Errore nella creazione della chiave di registro:<#>%s<#><#>Accesso negato.
+16=Errore nella creazione del collegamento:<#>%s<#><#>Accesso negato.
+17=Errore nella creazione della chiave di registro:<#>%s<#><#>Accesso negato.
+18=Errore nella creazione del valore di registro:<#>%s<#><#>Accesso negato.
+19=Errore nella scrittura del valore INI:<#>%s<#><#>Accesso negato.
+20=Errore nella creazione dell'associazione per:<#>%s<#><#>Accesso negato.
+21=Errore nella registrazione del font:<#>%s
+22=Impossibile registrare il file DLL/OCX:<#>%s
+23=Impossibile registrare la Type Library:<#>%s
+25="%s" non è installato sul computer.<#><#>L'aggiornamento non può continuare.
+26=Il file non è stato trovato:<#>%s<#><#>Specificare il percorso del file.
+27=Non si dispone di diritti sufficienti per eseguire questa operazione.<#><#>Esegui il login come amministratore oppure contattare l'amministratore di sistema.
+28=L'installazione non può continuare. Accedere come amministratore oppure contattare l'amministratore di sistema.
+29=Questa installazione richiede una versione a 32 bit di Windows.<#><#>L'installazione non può continuare.
+30=Vorresti:
+31=L'installazione per tutti gli utenti richiede i privilegi di amministratore.<#><#>Vorresti lanciare questo file di installazione come amministratore?
+32=Impossibile impostare la variabile di ambiente:
+33="%s" non è stato installato sul vostro computer.<#>L'installazione contiuerà, ma fate attenzione: il programma potrebbe non funzionare correttamente.
+34=Selezionate almeno un componente.
+35=Attualmente avete "<AppName> v%s" installato sul vostro computer.<#><#>Cliccate "SI" per disinstallare questa versione prima di installare v<AppVersion>.<#><#>Cliccate "NO" per sovrascrivere v%s con v<AppVersion>.Cliccate "ANNULLA" per mantenere v%s e installare v<AppVersion> in un altro percorso.
+36=Continuare comunque?
+37=Cliccate Riprova per continuare, o Annulla per uscire.
+38=Attendere prego

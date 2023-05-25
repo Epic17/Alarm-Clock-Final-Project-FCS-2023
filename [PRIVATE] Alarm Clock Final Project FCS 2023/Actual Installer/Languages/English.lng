@@ -1,0 +1,199 @@
+﻿[Info]
+id=1033
+lng=en
+translator=http://www.actualinstaller.com
+
+[Buttons]
+0=< &Back
+1=&Next >
+2=&Cancel
+3=&Install
+4=E&xit
+5=&Yes
+6=&No
+7=&Browse...
+8=&Finish
+9=&Extract
+10=OK
+11=I &Agree
+12=Print
+13=Exit
+
+[Title]
+0=<AppNameVersion> Setup
+
+[Language]
+0=Welcome to <AppName> Setup
+1=Select the setup language:
+
+[Welcome]
+0=Welcome to <AppName> Setup
+1=This will install <AppNameVersion> on your computer.<#><#>Click Next to continue, or Cancel to exit Setup.
+2=Copyright © %s
+3=Options
+
+[LicenseAgreement]
+0=License Agreement
+1=Please read the following important information before continuing.
+2=Please read the following License Agreement. You must accept the terms of this agreement before continuing with the installation.
+3=If you accept the terms of the agreement, click "I Agree" to continue.
+4=I accept the agreement
+5=By installing this product, you agree to our
+6=License Agreement
+
+[Readme]
+0=Readme Information
+1=Please read additional information for the product.
+2=When you are ready to continue with Setup, click Next.
+
+[UserInformation]
+0=Additional Information
+1=Please provide the following information.
+2=Please provide the following information. Required fields are marked with an asterisk (*).
+3=Name:
+4=Company:
+5=Key:
+6=Incorrect %s. Please try again.
+
+[DestinationFolder]
+0=Select Application Folder
+1=Please choose the directory for the installation.
+2=Setup will install <AppNameVersion> in the folder shown below.
+3=To install to a different folder, click Browse and select another folder.
+4=Destination Folder
+5=Required free space: %s
+6=Available free space: %s
+7=Drive %s doesn't contain enough free space.<#><#>Do you want to continue anyway?
+
+[AdditionalTasks]
+0=Select Additional Tasks
+1=Which additional tasks should be performed?
+2=Select the additional tasks you would like Setup to perform while installing <AppName>, then click Next.
+3=Create shortcuts in Start Menu
+4=Create shortcut on Desktop
+5=Create shortcuts on Quick Launch panel
+6=Associate <AppName> with file type(s): %s
+7=Program group name:
+8=Additional tasks:
+9=Launch <AppName> on Windows startup
+10=Install Product for:
+11=All users on this computer
+12=Current user only
+
+[ReadyToInstall]
+0=Ready to Install
+1=Setup is now ready to begin installing <AppNameVersion> on your computer.
+2=Click Install to continue with the installation, or Back if you want to review or change any settings.
+
+[Install]
+0=Installing...
+1=Please wait while <AppNameVersion> is being installed on your computer.
+2=Copying files...
+3=Creating shortcuts...
+4=Creating registry entries...
+5=Modifying INI files...
+6=Creating associations...
+7=Registering Fonts...
+8=Registering ActiveX...
+9=Registering Type Library...
+10=Finishing setup...
+11=Deleting temporary files...
+12=Preparing...
+13=Extracting files...
+
+[SetupComplete]
+0=Installation Completed
+1=<AppNameVersion> has been installed on your computer.
+2=WARNING! The installation completed with errors. The application may not function properly.
+3=Click Finish to exit Setup.
+4=Launch <AppName>
+5=Open Readme file
+6=Before you can use <AppName>, you must restart your computer.
+7=Restart the computer
+8=Yes, I want to restart my computer now.
+9=No, I will restart my computer later.
+
+[Uninstall]
+0=Uninstall %s
+1=Are you sure you want to remove %s?
+2=%s has been successfully removed from your computer.
+3=Would you like to share your opinion with us about this product?
+4=To continue with the uninstallation, close "%s" and then click Retry.
+5=To complete the uninstallation of %s, your computer must be restarted.%n%nWould you like to restart it now?
+6=Administrative privileges are required to uninstall %s.
+7=Would you like to remove the %s settings?
+8=%s must be closed to proceed with the uninstallation.%n%nTo continue, close %s and then click Retry.%nTo skip this file, click Ignore.%nTo exit the uninstallation, click Abort.
+9=%s has been uninstalled from your computer, but some elements could not be removed.%n%nThese might be in use by Windows services or some running apps.%n%nWould you like to remove the following elements after a restart?
+10=Uninstalling %s
+
+
+[Updater]
+0=Product Details
+1=Name:
+2=Installed Version:
+3=Check for Updates
+4=Close
+5=Incorrect update information.
+6=Unable to connect to the update site.
+7=New version of <AppName> is available - %s%n%nWould you like to install this version?
+8=No updates available.
+9=Currently you have v%s
+10=Options
+11=Check for Updates on %s Launch
+12=Unable to save settings. Access denied.%n%nTry to run the program as administrator.
+13=This action requires administrator privileges.%n%nWould you like to launch this file as administrator?
+14=Automatically Check for Updates:
+15=on Windows Startup
+16=Every Day
+17=Every Week
+18=Every Month
+19=Done
+20=Do you want to turn off the update notification for this version - %s?
+21=Note: You can change the update frequency or turn off the automatic update feature in the Updater Options dialog.%n%nWould you like to open it?
+22=Note: You can change the update frequency or turn off the automatic update feature in the Updater Options dialog.%n%nTo open this dialog, click YES.%n%nOr you can turn off the update notification for this version only (%s).%n%nTo make it, click NO.%n%nTo exit, click Cancel.
+23=<AppName> has been successfully updated!
+24=Install Updates Silently
+25=This program can automatically check for updates (daily, weekly or monthly).%n%nWould you like to use it?
+26=Yes
+27=No
+28=What's New:
+
+[Messages]
+0=Exit Setup
+1=Are you sure you want to cancel the installation?
+2=This installation requires a 64-bit version of Windows.<#><#>Installation cannot continue.
+3=This installation requires Windows %s.<#><#>Installation cannot continue.<#><#>You may try to use the compatibility mode:<#>Right-click on the file and select Properties \ Compatibility - "Run this program in compatibility mode for:".
+4=This installation requires Administrator Privileges.<#><#>Installation cannot continue.
+5=This installation requires an Active Internet Connection.<#><#>Do you want to continue anyway?
+6=Please close "%s", then click Retry to continue.
+7=This installation requires %s or newer to be installed on your computer.<#>Installation cannot continue.<#><#>Would you like to install it now?
+8=This installation requires %s to be installed on your computer.<#>Installation cannot continue.<#><#>Would you like to install it now?
+9=Please restart this setup program after installing the prerequisite.
+10="%s" is already installed on your computer.<#><#>Do you really want to install an older version (%s) ?
+11=Before installing "%s", you must first uninstall your currently installed version (%s).<#><#>Would you like to uninstall it now?
+12=File "%s" already exists.<#><#>Would you like to overwrite it?
+13=Error creating directory:<#>%s<#><#>Access is denied.
+14=Error creating file:<#>%s<#><#>Access is denied.
+15=Error creating registry key:<#>%s<#><#>Access is denied.
+16=Error creating shortcut:<#>%s<#><#>Access is denied.
+17=Error creating registry key:<#>%s<#><#>Access is denied.
+18=Error creating registry value:<#>%s<#><#>Access is denied.
+19=Error writing INI value:<#>%s<#><#>Access is denied.
+20=Error creating association for:<#>%s<#><#>Access is denied.
+21=Error registering font:<#>%s
+22=Unable to register DLL/OCX:<#>%s
+23=Unable to register Type Library:<#>%s
+25="%s" is not installed on your computer.<#><#>This upgrade program cannot continue.
+26=Data file not found:<#>%s<#><#>Please specify the location of this file.
+27=You don't have enough rights to perform this operation.<#><#>Log in as an administrator or contact your system administrator.
+28=Installation cannot continue. Log in as administrator or contact your system administrator.
+29=This installation requires a 32-bit version of Windows.<#><#>Installation cannot continue.
+30=Would you like to
+31=Installation for All Users requires administrator privileges.<#><#>Would you like to launch this setup file as administrator?
+32=Unable to set Environment Variable:
+33="%s" was not installed on your computer.<#>You can continue with this installation, but please note: the application may not function properly.
+34=Please select at least one component.
+35=Currently you have "<AppName> v%s" installed on your computer.<#><#>Click "YES" to uninstall this version before installing v<AppVersion>.<#><#>Click "NO" to overwrite v%s with v<AppVersion>.<#><#>Click "CANCEL" to keep v%s and install v<AppVersion> in other location.
+36=Continue anyway?
+37=Click Retry to continue, or Cancel to exit.
+38=Please wait
